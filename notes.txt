@@ -1,0 +1,51 @@
+<nav>It is used to make a navigation bar,it helps to navigate from one component to another
+<a>--It helps to 
+
+
+CSS selectors:
+1.Element selector:
+        Directly applying html tag to include the css properties
+        h1{
+            color:red;
+        }
+
+        2. Group selector:
+
+        Multiple tags are applied to perform the styling
+        h1 p{
+            color:red;
+        }
+
+
+        3.Universal selector:
+        Styling available for all the available html tags in a file
+
+        It is apllied by using "*"symbol.
+    
+    *{
+        color:brown;
+    }
+
+
+
+    4.Class selector
+
+To separate two uniform html tags while styling the class selector used.
+class selector is applied by using "." symbol.
+Multiple html elements can be styled using class selector
+
+<p class1="p1">Hello</p>
+.p{
+    color:red;
+}
+
+5. ID selector:
+An id selector is used to style a single unique html element using its"id" attribute.
+"#" is the symbol used for ID selector
+An Element can have only one id selector.
+
+<p id="title">Welcome</p>
+
+#{
+    color:pink;
+}

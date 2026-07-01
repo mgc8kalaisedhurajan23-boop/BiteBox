@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+}
+nav {
+  background-color: black;
+  padding: 15px 30px;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+  list-style: none;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav h2 {
+  color: white;
+}
+nav a:hover {
+  color: red;
+}
+nav li:last-child {
+  background-color: red;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: white;
+}
+nav li:last-child a:hover {
+  color: black;
+}
+
+nav li:nth-child(2) {
+  background-color: red;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: white;
+}
+nav li:nth-child(2) a:hover {
+  color: black;
+}
+
+nav li:nth-child(3) {
+  background-color: red;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: white;
+}
+nav li:nth-child(3) a:hover {
+  color: black;
+}
+nav li:nth-child(4) {
+  background-color: red;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: white;
+}
+nav li:nth-child(4) a:hover {
+  color: black;
+}
+
+nav li:first-child {
+  background-color: red;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: white;
+}
+nav li:first-child a:hover {
+  color: black;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('images/background\ img.png');
+  height: 90vh;
+  color: white;
+}
+
+.button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: orangered;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 50%;
+}
+.hero button:hover {
+  background: white;
+  color: black;
+}
+.video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 40px;
+}
+.video-content video {
+  width: 100%;
+  border-radius: 20px;
+}
+.video-text {
+  flex: 1;
+}
+.video-content {
+  flex: 1;
+}
+.video-text h2 {
+  margin-bottom: 20px;
+  color: orangered;
+  font-size: 35px;
+}
+.video-text p {
+  color: gray;
+  font-size: 20px;
+}
+.about {
+  text-align: center;
+  padding: 60px 30px;
+  background-color: rgb(205, 165, 141);
+}
+.about h2 {
+  color: rgb(81, 40, 15);
+  margin-bottom: 25px;
+}
+
+.card {
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px grey;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.card h4 {
+   color: orangered;
+   font-size: 20px;
+}
+
+.card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: orangered;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.card button:hover {
+  background:red;
+  color: black;
+}
+.menu h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: orangered;
+  font-size: 30px;
+}
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.icon-box img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid gray;
+}
+.icons-box {
+  padding: 10px;
+  min-width: 50px;
+  text-align: center;
+}
+.category-icons {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: wheat;
+  justify-content: center;
+}
+.icon-box img:hover {
+  border: 3px solid darkred;
+  cursor: pointer;
+}
+
+
+table{
+  width:70%;
+  background:whitesmoke;
+  border-collapse: collapse;
+  box-shadow: 2px 4px 10px grey;
+  margin: auto;
+}
+
+thead{
+background:black;
+color:white;
+
+}
+
+th,td{
+  padding: 15px;
+  text-align: center;
+}
+
+tbody tr{
+  border-bottom: 1px solid lightgrey;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.quantity-box button{
+   margin-top: 15px;
+  padding: 10px ;
+  background-color: orangered;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.remove-button{
+   margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color:white;
+  border: none;
+  color:white;
+  cursor: pointer;
+
+}
+
+.remove-button button:hover{
+  background:darkred;
+}
+
+.grand-total button:hover{
+   background-color: black;
+   cursor: pointer;
+   color: white;
+}
