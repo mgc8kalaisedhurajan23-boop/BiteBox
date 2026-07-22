@@ -1,7 +1,105 @@
-h1{
-    color:red
+/* *{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;  
 }
 
-h4 {
-    color:yellow
+body{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.container{
+    color: white;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.card{
+    width:300px;
+    background-color:orangered;
+    padding:25px;
+    border-radius: 10px;
+    text-align:center;
+
+}
+
+
+@media(max-width:800px){
+
+body{
+    background-color: beige;
+}
+
+.container{
+    flex-wrap: wrap;
+}
+
+
+.card{
+    background-color: aqua;
+}
+
+}
+
+
+
+@media(max-width:600px){
+    
+body{
+    background-color:blue;
+}
+
+.container{
+    flex-wrap: wrap;
+}
+
+
+.card{
+    background-color:red;
+}
+} */
+
+
+.userlogin{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.userlog{
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 20px gray;
+
+}
+.userlog h2{
+    margin-bottom: 20px;
+    color: rgb(21, 216, 241);
+}
+
+.userlog input{
+    width: 60%;
+    padding: 10px;
+}
+.userlog button{
+    width: 35%;
+    background: rgb(38, 240, 223);
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.userlog button:hover{
+    background: darkred;
 }

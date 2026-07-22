@@ -49,3 +49,100 @@ An Element can have only one id selector.
 #{
     color:pink;
 }
+
+
+
+
+
+ JAVA SCRIPT
+
+
+           CONTROL STATEMENTS
+
+     1.CONDITIONAL STATEMENTS      2.LOOPING STATEMENTS
+     
+
+     IF                             FOR 
+     IFELSE                         WHILE
+     ELSEIF                         DO-WHILE
+     SWITCH
+
+
+
+
+     CONDITIONAL STATEMENTS:
+
+
+
+=>if: the if block executes only when the condition is true.
+  syntax: if(condition){//statement}
+
+=>if-else: the if block executes only when the condition is true.
+           the else block will get executed.
+  syntax: if(condition){//statement}
+          else{//statement}
+
+=>else-if: if multiple conditions need to be applied , then else-if has to be used;
+  syntax: if(condition){//statement} else if(condition){} else if(condition){} else{}  
+
+Switch statement : 
+
+A switch statement is used when you want to perform different action in one.
+syntax: switch(){ 
+case1: //statement break; 
+case2: //statement break;
+case3: //statement break; default://statement break;
+}
+    
+
+
+                                                     LOOP
+
+
+    WHILE
+     It executes as long as the condition becomes true.
+     It is otherwise called as "Entry controlled loop"
+
+
+
+syntax:
+
+while (condition){
+    // statement
+
+}
+
+
+
+do-while loop 
+
+
+
+It executes as long as the condition is true
+only one statement will get executed even if the condition is false
+It is otherwise called as "exit controlled loop"
+
+
+syntax:
+
+do{
+    //statement
+while(condition);
+}
+
+
+
+
+ MEDIA QUERIES:
+
+
+
+ A Media query is a css feature that helps us to apply different styles based on the characteristics
+ of user's device or browser such as screen's width ,height.
+
+ It helps to make a responsive webpage
+
+
+ @media (condition){
+    
+ }
